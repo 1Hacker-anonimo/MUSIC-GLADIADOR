@@ -68,8 +68,8 @@ fun AppNavigationGraph(
         }
 composable("local_music") {
     LocalMusicScreen(context = LocalContext.current) { uri ->
-        // aqui você conecta com o Player existente
-        // por exemplo: player.play(uri)
+        
+   
     }
 }
         composable<FullscreenDestination> {
