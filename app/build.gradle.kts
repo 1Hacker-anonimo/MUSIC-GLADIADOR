@@ -204,7 +204,8 @@ dependencies {
     implementation(libs.compose.material.icons.extended)
     implementation(libs.compose.ui.viewbinding)
     implementation(libs.constraintlayout.compose)
-
+implementation("androidx.media3:media3-exoplayer:1.3.1")
+implementation("androidx.media3:media3-ui:1.3.1")
     // Android Studio Preview support
     implementation(libs.ui.tooling.preview)
     implementation(libs.activity.compose)
